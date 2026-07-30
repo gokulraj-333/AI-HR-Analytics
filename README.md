@@ -1,61 +1,50 @@
 # 🤖 AI HR Analytics Dashboard
 
-An AI-powered HR Analytics Dashboard that enables users to ask HR-related questions in natural language. The application automatically converts questions into SQL queries using a Large Language Model (Ollama), executes them on a MySQL database, visualizes the results with interactive charts, and generates AI-driven business insights.
+An AI-powered HR Analytics Dashboard that enables HR professionals to ask business questions in natural language. The application converts user queries into SQL using Ollama, executes them on a MySQL database, visualizes the results using Chart.js, and generates AI-driven HR insights.
 
 ---
 
-## 🚀 Features
+# 🚀 Features
 
-- 🤖 Natural Language to SQL using Ollama
+- 🤖 AI-powered Natural Language to SQL
 - 🗄️ MySQL Database Integration
-- 📊 Interactive Dashboard with KPI Cards
-- 📈 Automatic Data Visualization (Chart.js)
+- 📊 Interactive HR Dashboard
+- 📈 Automatic Data Visualization
 - 💡 AI-generated HR Insights
-- 📋 Query Results Table
+- 📋 SQL Query Display
 - 📥 Export Results to CSV
-- 📝 Generated SQL Display
 - 📱 Responsive User Interface
 - 📌 Recent Question History
 
 ---
 
-## 📸 Screenshots
+# 📸 Screenshots
 
-### Dashboard
+## Dashboard
 
-> Add your dashboard screenshot here.
-
-```
-screenshots/dashboard.png
-```
-
-### AI Generated SQL
-
-> Add SQL screenshot here.
-
-```
-screenshots/sql.png
-```
-
-### Visualization
-
-> Add chart screenshot here.
-
-```
-screenshots/chart.png
-```
-
-### AI Insight
-
-> Add insight screenshot here.
-
-```
-screenshots/insight.png
-```
+![Dashboard](Screenshots/dashboard.png)
 
 ---
 
-## 🛠️ Tech Stack
+## AI Generated SQL
+
+![Generated SQL](Screenshots/sql.png)
+
+---
+
+## Visualization
+
+![Visualization](Screenshots/chart.png)
+
+---
+
+## AI Insight
+
+![AI Insight](Screenshots/insight.png)
+
+---
+
+# 🛠️ Tech Stack
 
 ### Backend
 - Python
@@ -69,16 +58,16 @@ screenshots/insight.png
 - Llama 3.2
 
 ### Frontend
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
 - Chart.js
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
-```
+```text
 AI-HR-Analytics/
 │
 ├── app.py
@@ -95,12 +84,16 @@ AI-HR-Analytics/
 ├── templates/
 │   └── index.html
 │
-└── screenshots/
+└── Screenshots/
+    ├── dashboard.png
+    ├── sql.png
+    ├── chart.png
+    └── insight.png
 ```
 
 ---
 
-## ⚙️ Installation
+# ⚙️ Installation
 
 ### Clone Repository
 
@@ -130,9 +123,9 @@ ollama serve
 ollama pull llama3.2:3b
 ```
 
-### Configure MySQL
+### Configure Database
 
-Update your database configuration inside:
+Update the MySQL credentials inside:
 
 ```
 sql_executor.py
@@ -152,20 +145,20 @@ http://127.0.0.1:5000
 
 ---
 
-## 💬 Example Questions
+# 💬 Example Questions
 
-- How many employees are in each department?
 - Show average salary by department.
-- Which department has the highest attrition?
-- Show gender distribution.
+- Employees by department.
+- Attrition by department.
+- Gender distribution.
 - Top 10 highest-paid employees.
-- Average job satisfaction by department.
 - Employees working overtime.
+- Job satisfaction by department.
 - Performance rating by department.
 
 ---
 
-## 📊 Dashboard Includes
+# 📊 Dashboard KPIs
 
 - Total Employees
 - Active Employees
@@ -178,45 +171,44 @@ http://127.0.0.1:5000
 
 ---
 
-## 💡 How It Works
+# 💡 How It Works
 
-1. User enters an HR-related question.
-2. Ollama converts the question into SQL.
-3. Flask executes the SQL query on MySQL.
-4. Results are displayed in a table.
-5. Chart.js visualizes the results.
-6. Ollama generates HR insights and recommendations.
+1. User asks an HR question.
+2. Ollama converts it into SQL.
+3. Flask executes the SQL query.
+4. Results are retrieved from MySQL.
+5. Chart.js visualizes the data.
+6. Ollama generates HR insights.
 
 ---
 
-## 🎯 Skills Demonstrated
+# 🎯 Skills Demonstrated
 
 - Python
 - Flask
-- MySQL
 - SQL
+- MySQL
+- REST API
 - Prompt Engineering
-- REST APIs
-- Data Visualization
-- Business Analytics
 - AI Integration
+- Data Visualization
 - Dashboard Development
+- Business Analytics
 
 ---
 
-## 🔮 Future Enhancements
+# 🔮 Future Improvements
 
-- PDF Report Export
 - Excel Export
+- PDF Reports
 - Authentication
-- Department Filters
+- Dashboard Filters
 - Multiple Chart Types
-- Advanced AI Analytics
 - Cloud Deployment
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Gokul Raj R S**
 
@@ -224,6 +216,6 @@ GitHub: https://github.com/gokulraj-333
 
 ---
 
-## ⭐ Support
+# ⭐ If you like this project
 
-If you found this project useful, consider giving it a ⭐ on GitHub.
+Please consider giving it a ⭐ on GitHub.
